@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  /*  background-color: bisque;*/
+}
+
+.signup, .login{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    margin-left: 130px;
+    width: 80px;
+    height: 30px;
+    background-color: #007bff;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 15%;
+}
+
+.error{
+    margin-left: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.sign-out{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navItems{
+    border: none;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navItems:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.all-notes{
+    width: 400px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.your-notes{
+    text-align: center;
+    font-size: 20px;
+    color: coral;
+}
+
+.bg-dark{
+    background-color: black;
+    color: white;
+    
+}
+
+.bg-light{
+    background-color: white;
+    color: black;
+}
+
+.panel{
+    margin: 50px 50px;
+}
